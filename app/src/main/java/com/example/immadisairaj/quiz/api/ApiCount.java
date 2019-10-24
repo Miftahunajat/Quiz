@@ -24,13 +24,4 @@ public class ApiCount {
 	public CategoryQuestionCount getCategoryQuestionCount(){
 		return categoryQuestionCount;
 	}
-
-	@Override
- 	public String toString(){
-		return 
-			"ApiCount{" +
-			"category_id = '" + categoryId + '\'' + 
-			",category_question_count = '" + categoryQuestionCount + '\'' + 
-			"}";
-		}
 }

@@ -47,15 +47,4 @@ public class CategoryQuestionCount{
 	public int getTotalQuestionCount(){
 		return totalQuestionCount;
 	}
-
-	@Override
- 	public String toString(){
-		return 
-			"CategoryQuestionCount{" + 
-			"total_hard_question_count = '" + totalHardQuestionCount + '\'' + 
-			",total_easy_question_count = '" + totalEasyQuestionCount + '\'' + 
-			",total_medium_question_count = '" + totalMediumQuestionCount + '\'' + 
-			",total_question_count = '" + totalQuestionCount + '\'' + 
-			"}";
-		}
 }
