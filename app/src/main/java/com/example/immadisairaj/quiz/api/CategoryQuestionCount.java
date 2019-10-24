@@ -39,12 +39,4 @@ public class CategoryQuestionCount{
 	public int getTotalMediumQuestionCount(){
 		return totalMediumQuestionCount;
 	}
-
-	public void setTotalQuestionCount(int totalQuestionCount){
-		this.totalQuestionCount = totalQuestionCount;
-	}
-
-	public int getTotalQuestionCount(){
-		return totalQuestionCount;
-	}
 }
